@@ -1,0 +1,47 @@
+.nav {
+    display:grid;
+
+    justify-content:center;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 10fr;
+
+    background-color: rgb(0, 0, 5);
+  }
+
+.nav svg {
+    filter:invert(0);
+    fill:white;
+
+    margin-top:3vh;
+}
+
+.navigation {
+    border-radius:100%;
+
+    background-color:rgb(77, 77, 77);
+
+    height:40px;
+    width:40px;
+
+    margin-left:0.5vw;
+}
+
+.home {
+    margin-left:1vw;
+}
+
+.box {
+    margin-left:1vw;
+}
+
+.line {
+    margin-left:1vw;
+}
+
+.shipping {
+    margin-left:1vw;
+}
+
+.orders {
+    margin-left:1vw;
+}

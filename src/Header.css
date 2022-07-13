@@ -1,0 +1,47 @@
+.header {
+    display:grid;
+    gap:5px;
+    grid-template: 1fr 5fr 1fr / 1fr 1fr;
+    grid-template-areas:
+    'leftSide spacer search'
+    'subtext spacer search'
+    ;
+
+    height:10vh;
+  }
+
+.leftSide {
+    grid-area:leftSide;
+    font-size:25px;
+
+    margin-left:1.5vw;
+    margin-top:2%;
+}
+
+.spacer {
+    grid-area: spacer;
+}
+
+.subtext {
+    grid-area:subtext;
+    font-size:12.5px;
+
+    margin-left:1.5vw;
+
+    color:grey;
+}
+
+
+.header input[type=text] {
+    grid-area:search;
+    border: none;
+    border-radius:14px;
+    font-size: 17px;
+
+    margin-right:2vw;
+
+    margin-top:10%;
+
+    width:10vw;
+    height:4vh;
+}

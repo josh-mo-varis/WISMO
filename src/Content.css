@@ -1,7 +1,25 @@
-.title{
+.title {
     text-align:center;
 }
 
-.card{
+.card {
     display: grid;
+
+    background-color:#FFFFFF;
+
+    border: 1px solid black;
+    border-radius:25px;
+}
+
+.title {
+    text-align:center;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    height:40%;
+    background-color:grey;
+
+    border: 1px solid black;
+    border-radius:10px;
 }

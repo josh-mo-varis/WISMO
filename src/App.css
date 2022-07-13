@@ -1,34 +1,31 @@
 .container {
-  background-color:aquamarine;
-  height: 100vh;
-  width: 100vw;
+  background-color:#F6F8FA;
+  height: 100%;
+  width: 100%;
   display: grid;
-  grid-template: 1fr 5fr 1fr / 1fr 6fr;
-  gap: 10px;
+  grid-template: 1fr 10fr 1fr / 1fr 27.5fr;
+  gap: 2.5px;
   grid-template-areas:
-  "header header"
+  "nav header"
   "nav content"
   "footer footer"
   ;
 }
 
 .header {
-  background-color:aliceblue;
   grid-area: header;
 }
 
 .nav {
-  background-color:antiquewhite;
   grid-area:nav;
 }
 
 .content {
-  background-color:aqua;
   grid-area:content;
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr 1fr 1.5fr 1fr / 1fr 1fr;
   gap: 10px;
   grid-template-areas:
   "orderinfo userinfo"
@@ -40,17 +37,14 @@
 
 .orderinfo {
   display:flex-start;
-  background-color:blue;
   grid-area: orderinfo;
 }
 
 .userinfo {
-  background-color:antiquewhite;
   grid-area:userinfo;
 }
 
 .ordersummary {
-  background-color:brown;
   grid-area:ordersummary;
 }
 
@@ -60,21 +54,17 @@
 }
 
 .billingaddresses {
-  background-color:blueviolet;
   grid-area:billingaddresses;
 }
 
 .shippingaddresses {
-  background-color:azure;
   grid-area:shippingaddresses;
 }
 
 .orderdetails {
-  background-color:blanchedalmond;
   grid-area:orderdetails;
 }
 
 .footer {
-  background-color:beige;
   grid-area:footer;
 }

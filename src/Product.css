@@ -1,0 +1,20 @@
+.product {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr / 1fr;
+    grid-template-areas:
+    "name quantity price"
+    ;
+}
+
+.name {
+    grid-area:name;
+}
+
+.quantity {
+    grid-area:quantity;
+}
+
+.price {
+    grid-area:price;
+}
